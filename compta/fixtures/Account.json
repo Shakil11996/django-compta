@@ -1,0 +1,58 @@
+[
+  {
+    "model": "compta.Account",
+    "pk": "zero",
+    "fields": {
+      "label": "Zero",
+      "description": "solde au 1er janvier"
+    }
+  },
+  {
+    "model": "compta.Account",
+    "pk": "collab",
+    "fields": {
+      "label": "Collaboration",
+      "description": "Honoraire de collaboration"
+    }
+  },
+  {
+    "model": "compta.Account",
+    "pk": "hp",
+    "fields": {
+      "label": "Honoraires Perso",
+      "description": "Honoraire de dossiers Personnels"
+    }
+  },
+  {
+    "model": "compta.Account",
+    "pk": "charge",
+    "fields": {
+      "label": "Charge",
+      "description": "Charge professionnelle"
+    }
+  },
+  {
+    "model": "compta.Account",
+    "pk": "perso",
+    "fields": {
+      "label": "Perso",
+      "description": "Dépense personnelle"
+    }
+  },
+  {
+    "model": "compta.Account",
+    "pk": "rbtperso",
+    "fields": {
+      "label": "Rbt Perso",
+      "description": "Remboursement Perso"
+    }
+  },
+  {
+    "model": "compta.Account",
+    "pk": "rbtcharge",
+    "fields": {
+      "label": "Rbt Charge",
+      "description": "Remboursement Charge"
+    }
+  }
+]
